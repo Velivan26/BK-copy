@@ -1,0 +1,30 @@
+header {
+  padding: 0.3125rem 1.5rem;
+  position: sticky;
+}
+
+.header__nav {
+  padding: 0.25rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav ul {
+  list-style: none;
+}
+
+.header__menu-mobile i {
+  font-size: 2rem;
+}
+
+.header__logo img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.header__menu {
+  display: none;
+}

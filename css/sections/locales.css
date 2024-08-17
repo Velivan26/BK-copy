@@ -1,0 +1,52 @@
+.locales {
+  background-color: #efe0cc;
+  padding: 3rem 1.5rem 0 1.5rem;
+}
+
+.locales__header {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+.locales__input {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  padding: 1rem 1.5rem 1rem 1.5rem;
+
+  border-radius: 10px;
+  border: solid 1px var(--line-default);
+}
+
+.locales__input input {
+  flex: 1;
+
+  background-color: transparent;
+  border: none;
+
+  font-size: 1rem;
+  font-family: var(--body-font);
+  font-weight: var(--body-weight);
+
+  color: var(--body-color);
+}
+
+.locales__input input::placeholder {
+  color: var(--body-color);
+}
+
+.locales__image {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.locales__image img {
+  width: 230px;
+  height: auto;
+  object-fit: contain;
+}
