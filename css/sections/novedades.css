@@ -1,0 +1,36 @@
+.novedades {
+  padding: 3rem 1.5rem 0 1.5rem;
+  margin-bottom: 10rem;
+}
+
+.novedades__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 1.5rem;
+}
+
+.novedades__header a {
+  color: var(--primary);
+  text-decoration: none;
+
+  font-family: FlameSans-Regular;
+
+  cursor: pointer;
+}
+
+.novedades__content {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.novedades__content img {
+  max-height: 350px;
+  width: 100%;
+
+  aspect-ratio: 1.5/1;
+  object-fit: contain;
+
+  margin-bottom: 0.5rem;
+}

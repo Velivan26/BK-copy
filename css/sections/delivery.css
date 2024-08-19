@@ -1,0 +1,69 @@
+.delivery {
+  background-color: var(--primary);
+
+  padding: 3rem 0;
+}
+
+.delivery__content {
+  padding: 2rem 1.5rem;
+
+  background-color: var(--white);
+
+  display: grid;
+  gap: 0.75rem;
+}
+
+.delivery__content-image {
+  display: flex;
+
+  width: 100%;
+  height: 64px;
+
+  margin-top: 0.75rem;
+}
+
+.delivery__image-rappi {
+  flex: 1;
+  display: grid;
+  place-items: center;
+
+  font-size: 1rem;
+
+  border: 3px solid var(--primary);
+  border-radius: 15px;
+}
+
+.delivery__image-pedidosya {
+  flex: 1;
+  display: grid;
+  place-items: center;
+}
+
+.delivery__image-pedidosya img {
+  height: 64px;
+  width: 80px;
+}
+
+.delivery__button-wrap {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 0.5rem;
+}
+
+.delivery__button {
+  width: 95%;
+  font-family: FlameSans-Regular;
+  font-size: 0.9rem;
+
+  color: var(--white);
+  background-color: var(--primary);
+
+  border-radius: 20px;
+  border: none;
+  outline: none;
+
+  padding: 0.2rem 0;
+}
