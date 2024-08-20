@@ -3,6 +3,7 @@
 @import url("sections/locales.css");
 @import url("sections/novedades.css");
 @import url("sections/delivery.css");
+@import url("sections/app.css");
 
 @font-face {
   font-family: Flame-Regular;

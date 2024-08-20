@@ -1,0 +1,58 @@
+.app {
+  display: flex;
+  flex-direction: column;
+
+  padding: 3rem 1.5rem 0 1.5rem;
+
+  background-color: var(--primary);
+}
+
+.app__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+
+.app__content h2 {
+  color: var(--white);
+
+  font-family: Flame-Bold;
+  font-size: 2.5rem;
+
+  line-height: 3.5rem;
+}
+
+.app__content p {
+  color: var(--white);
+
+  line-height: 20px;
+  letter-spacing: -0.41px;
+
+  font-size: 12px;
+  font-family: var(--body-font);
+  font-weight: var(--body-weight);
+  text-transform: var(--body-tt);
+}
+
+.app__logo {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.app__logo img {
+  width: 99px;
+  height: 32px;
+}
+
+.app__image {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  margin-top: 2.7rem;
+}
+
+.app__image img {
+  width: 80%;
+  object-fit: cover;
+}

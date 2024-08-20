@@ -1,10 +1,13 @@
 header {
+  background-color: var(--background-front);
   padding: 0.3125rem 1.5rem;
+
   position: sticky;
+  top: 0;
 }
 
 .header__nav {
-  padding: 0.25rem 0;
+  padding: 0.25rem 0 0 0;
 
   display: flex;
   justify-content: space-between;
@@ -16,7 +19,7 @@ header {
 }
 
 .header__menu-mobile i {
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 .header__logo img {
