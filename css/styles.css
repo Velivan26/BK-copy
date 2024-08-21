@@ -4,6 +4,7 @@
 @import url("sections/novedades.css");
 @import url("sections/delivery.css");
 @import url("sections/app.css");
+@import url("sections/footer.css");
 
 @font-face {
   font-family: Flame-Regular;
@@ -51,6 +52,10 @@
 
 body {
   background-color: var(--background-back);
+}
+
+ul {
+  list-style: none;
 }
 
 .title {

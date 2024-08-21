@@ -30,13 +30,16 @@
   font-size: 1rem;
 
   border: 3px solid var(--primary);
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 .delivery__image-pedidosya {
   flex: 1;
   display: grid;
   place-items: center;
+
+  box-shadow: 0 2px 4px 0 rgba(44, 44, 49, 0.1);
+  border-radius: 12px;
 }
 
 .delivery__image-pedidosya img {
